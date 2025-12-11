@@ -5,7 +5,7 @@ configurations.all {
 }
 
 dependencies {
-	testIntegrationImplementation group: "com.liferay.portal", name: "release.dxp.api"
+	testIntegrationImplementation group: "com.liferay.portal", name: "release.portal.api"
 	testIntegrationImplementation project(":modules:ai-tasks-rest-api")
 	testIntegrationImplementation project(":modules:ai-tasks-rest-client")
 }

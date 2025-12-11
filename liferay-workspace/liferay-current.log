@@ -1,0 +1,50 @@
+Using CATALINA_BASE:   /workspaces/ai-tasks/liferay-workspace/bundles/tomcat
+Using CATALINA_HOME:   /workspaces/ai-tasks/liferay-workspace/bundles/tomcat
+Using CATALINA_TMPDIR: /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp
+Using JRE_HOME:        /usr/lib/jvm/java-17-openjdk-amd64
+Using CLASSPATH:       /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/bin/bootstrap.jar:/workspaces/ai-tasks/liferay-workspace/bundles/tomcat/bin/tomcat-juli.jar
+Using CATALINA_OPTS:    -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=jdk.zipfs/jdk.nio.zipfs=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Dec-2025 10:23:17.682 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [951] milliseconds
+Loading jar:file:/workspaces/ai-tasks/liferay-workspace/bundles/tomcat/webapps/ROOT/WEB-INF/shielded-container-lib/portal-impl.jar!/system.properties
+Loading jar:file:/workspaces/ai-tasks/liferay-workspace/bundles/tomcat/webapps/ROOT/WEB-INF/shielded-container-lib/portal-impl.jar!/portal.properties
+Loading file:/workspaces/ai-tasks/liferay-workspace/bundles/portal-ext.properties
+Loading file:/workspaces/ai-tasks/liferay-workspace/bundles/portal-setup-wizard.properties
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2025-12-11 10:23:19.999 INFO  [main][PortalContextLoaderListener:114] JVM arguments: --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=jdk.zipfs/jdk.nio.zipfs=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=/workspaces/ai-tasks/liferay-workspace/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/workspaces/ai-tasks/liferay-workspace/bundles/tomcat -Dcatalina.home=/workspaces/ai-tasks/liferay-workspace/bundles/tomcat -Djava.io.tmpdir=/workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp
+2025-12-11 10:23:24.927 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2025-12-11 10:23:24.931 INFO  [SystemExecutorServiceUtil-1][DialectDetector:134] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2025-12-11 10:23:26.976 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2025-12-11 10:23:27.519 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /workspaces/ai-tasks/liferay-workspace/bundles/osgi/configs
+2025-12-11 10:23:28.708 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2025-12-11 10:23:28.711 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2025-12-11 10:23:31.962 WARN  [Start Level: Equinox Container: 201cc799-c4c4-40b9-a65a-bb078fea39f8][SidecarManager:70] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2025-12-11 10:23:43.098 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2025-12-11 10:23:43.101 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2025-12-11 10:23:47.541 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2025-12-11 10:23:47.542 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2025-12-11 10:23:55.739 INFO  [SystemExecutorServiceUtil-2][Sidecar:100] Sidecar Elasticsearch 7.17.26 liferay_sidecar started at 127.0.0.1:9201
+
+    __    ____________________  _____  __
+   / /   /  _/ ____/ ____/ __ \/   \ \/ /
+  / /    / // /_  / __/ / /_/ / /| |\  /
+ / /____/ // __/ / /___/ _, _/ ___ |/ /
+/_____/___/_/   /_____/_/ |_/_/  |_/_/
+
+Starting Liferay Community Edition Portal 7.4.3.132 CE GA132 (February 18, 2025)
+
+2025-12-11 10:24:00.191 INFO  [main][StartupHelperUtil:100] There are no patches installed
+2025-12-11 10:24:02.000 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /workspaces/ai-tasks/liferay-workspace/bundles/deploy
+11-Dec-2025 10:24:08.014 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [50328] milliseconds
+2025-12-11 10:24:08.063 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102407820NCEZOAJF/admin-theme.war
+2025-12-11 10:24:10.427 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102407820NCEZOAJF/admin-theme.war copied successfully
+2025-12-11 10:24:13.301 WARN  [http-nio-8080-exec-1][LogService:53] Default value "mapDb" for attribute definition "chatMemoryProvider" is invalid because "Value "mapDb" is not one of the options.".
+2025-12-11 10:24:13.332 WARN  [http-nio-8080-exec-1][LogService:53] Invalid default value "mapDb" for attribute definition "chatMemoryProvider" in metadata XML at "bundleentry://1398.fwk1875542814/OSGI-INF/metatype/fi.soveltia.liferay.aitasks.configuration.AITasksConfiguration.xml" for bundle ID "1398" with symbolic name "fi.soveltia.liferay.aitasks.api".
+2025-12-11 10:24:17.623 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102417580ZBIVELYT/classic-theme.war
+2025-12-11 10:24:19.005 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102417580ZBIVELYT/classic-theme.war copied successfully
+2025-12-11 10:24:23.976 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102423932SIWYEXYK/dialect-theme.war
+2025-12-11 10:24:25.607 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102423932SIWYEXYK/dialect-theme.war copied successfully
+2025-12-11 10:24:31.861 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102431779BLJTBJBZ/minium-theme.war
+2025-12-11 10:24:32.856 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102431779BLJTBJBZ/minium-theme.war copied successfully
+2025-12-11 10:24:36.147 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102436120PDZOZGXN/speedwell-theme.war
+2025-12-11 10:24:36.761 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /workspaces/ai-tasks/liferay-workspace/bundles/tomcat/temp/20251211102436120PDZOZGXN/speedwell-theme.war copied successfully

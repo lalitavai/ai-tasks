@@ -3,7 +3,7 @@ dependencies {
 	api project(":modules:ai-tasks-rest-api")
 	api project(":modules:ai-tasks-spi")
 
-	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
 }
 
 group = "fi.soveltia.liferay.aitasks.rest"

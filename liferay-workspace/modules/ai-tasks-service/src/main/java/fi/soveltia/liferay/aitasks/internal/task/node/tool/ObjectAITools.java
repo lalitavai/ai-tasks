@@ -372,7 +372,8 @@ public class ObjectAITools implements AITaskTool {
 			try {
 				ObjectDefinition objectDefinition =
 					objectDefinitionService.addCustomObjectDefinition(
-						0, false, false, true, false,
+						serviceContext.getUserId(),
+						name, false, false, true, false, false,
 						HashMapBuilder.put(
 							serviceContext.getLocale(), label
 						).build(),
